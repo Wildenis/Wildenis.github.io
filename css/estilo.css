@@ -55,28 +55,48 @@ header, footer, .redes-sociais, .tecnologias {
 }
 
 .redes-sociais li {
-    width: 40px;
-    height: 40px;
     display: inline-block;
-    text-indent: 7000px;
 }
 
 .redes-sociais li a {
-    display: block;
-    width: 40px;
-    height: 40px;
+    display: inline-block;
 }
 
-.ico-linkedin {
+.ico {
     width: 40px;
     height: 40px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: 7000px;
+    display: inline-block;
+}
+
+.linkedin {
     background-image: url('imagens/linkedin.png');
-    background-repeat: no-repeat;
 }
 
-.ico-facebook {
-    width: 40px;
-    height: 40px;
+.github {
+    background-image: url('imagens/github.png');
+}
+
+.facebook {
     background-image: url('imagens/facebook.png');
-    background-repeat: no-repeat;
+}
+
+.devcard {
+    background-image: url('imagens/devcard.png');
+}
+
+.projetos h3 {
+    text-align: center;
+}
+
+.projetos ul {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.projetos li {
+    margin-bottom: 7px;
+    margin-top: 7px;
 }
