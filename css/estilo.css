@@ -53,3 +53,30 @@ header, footer, .redes-sociais, .tecnologias {
     background-repeat: no-repeat;
     text-align: left;
 }
+
+.redes-sociais li {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: 7000px;
+}
+
+.redes-sociais li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.ico-linkedin {
+    width: 40px;
+    height: 40px;
+    background-image: url('imagens/linkedin.png');
+    background-repeat: no-repeat;
+}
+
+.ico-facebook {
+    width: 40px;
+    height: 40px;
+    background-image: url('imagens/facebook.png');
+    background-repeat: no-repeat;
+}
